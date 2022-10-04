@@ -9,7 +9,7 @@ import { config } from "../config";
 export const ContractContext = createContext({
   pstnContract: null,
   contract: null,
-  web: null,
+  web3: null,
   wrongNetwork: false,
   getPSTNBalance: () => null,
   fromWei: () => null,
